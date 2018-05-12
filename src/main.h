@@ -56,7 +56,7 @@ inline bool IsProtocolV1RetargetingFixed(int nHeight) { return true;}
 inline bool IsProtocolV2(int nHeight) { return false; }
 inline bool IsProtocolV3(int64_t nTime) { return true; }
 
-inline int64_t FutureDrift(int64_t nTime) { return nTime + 15; }
+inline int64_t FutureDrift(int64_t nTime) { return nTime + 30; }
 
 inline unsigned int GetTargetSpacing(int nHeight) { return 30; }
 
