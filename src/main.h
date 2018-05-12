@@ -52,17 +52,13 @@ inline bool MoneyRange(int64_t nValue) { return (nValue >= 0 && nValue <= MAX_MO
 /** Threshold for nLockTime: below this value it is interpreted as block number, otherwise as UNIX timestamp. */
 static const unsigned int LOCKTIME_THRESHOLD = 500000000; // Tue Nov  5 00:53:20 1985 UTC
 
-static const int64_t COIN_YEAR_REWARD = 1 * CENT; // 1% per year
+inline bool IsProtocolV1RetargetingFixed(int nHeight) { return true;}
+inline bool IsProtocolV2(int nHeight) { return false; }
+inline bool IsProtocolV3(int64_t nTime) { return true; }
 
-inline bool IsProtocolV1RetargetingFixed(int nHeight) { return TestNet() || nHeight > 38423; }
-inline bool IsProtocolV2(int nHeight) { return TestNet() || nHeight > 319000; }
-inline bool IsProtocolV3(int64_t nTime) { return TestNet() || nTime > 1444028400; }
+inline int64_t FutureDrift(int64_t nTime) { return nTime + 15; }
 
-inline int64_t FutureDriftV1(int64_t nTime) { return nTime + 10 * 60; }
-inline int64_t FutureDriftV2(int64_t nTime) { return nTime + 15; }
-inline int64_t FutureDrift(int64_t nTime, int nHeight) { return IsProtocolV2(nHeight) ? FutureDriftV2(nTime) : FutureDriftV1(nTime); }
-
-inline unsigned int GetTargetSpacing(int nHeight) { return IsProtocolV2(nHeight) ? 64 : 60; }
+inline unsigned int GetTargetSpacing(int nHeight) { return 30; }
 
 extern CScript COINBASE_FLAGS;
 extern CCriticalSection cs_main;
@@ -133,7 +129,7 @@ void ThreadImport(std::vector<boost::filesystem::path> vImportFiles);
 
 bool CheckProofOfWork(uint256 hash, unsigned int nBits);
 unsigned int GetNextTargetRequired(const CBlockIndex* pindexLast, bool fProofOfStake);
-int64_t GetProofOfWorkReward(int64_t nFees);
+int64_t GetProofOfWorkReward(int64_t nHeight, int64_t nFees);
 int64_t GetProofOfStakeReward(const CBlockIndex* pindexPrev, int64_t nCoinAge, int64_t nFees);
 bool IsInitialBlockDownload();
 bool IsConfirmedInNPrevBlocks(const CTxIndex& txindex, const CBlockIndex* pindexFrom, int nMaxDepth, int& nActualDepth);
