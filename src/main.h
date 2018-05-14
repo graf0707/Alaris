@@ -53,10 +53,10 @@ inline bool MoneyRange(int64_t nValue) { return (nValue >= 0 && nValue <= MAX_MO
 static const unsigned int LOCKTIME_THRESHOLD = 500000000; // Tue Nov  5 00:53:20 1985 UTC
 
 inline bool IsProtocolV1RetargetingFixed(int nHeight) { return true;}
-inline bool IsProtocolV2(int nHeight) { return false; }
+inline bool IsProtocolV2(int nHeight) { return true; }
 inline bool IsProtocolV3(int64_t nTime) { return true; }
 
-inline int64_t FutureDrift(int64_t nTime) { return nTime + 30; }
+inline int64_t FutureDrift(int64_t nTime) { return nTime + 10 * 60; }
 
 inline unsigned int GetTargetSpacing(int nHeight) { return 30; }
 
