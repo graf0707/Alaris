@@ -627,8 +627,8 @@ public:
 
     void SetNull()
     {
-        //nVersion = CBlock::CURRENT_VERSION;
-	nVersion = 4;
+        nVersion = CBlock::CURRENT_VERSION;
+	//nVersion = 4;
         hashPrevBlock = 0;
         hashMerkleRoot = 0;
         nTime = 0;
