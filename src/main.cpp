@@ -963,7 +963,7 @@ void static PruneOrphanBlocks()
 // miner's coin base reward
 int64_t GetProofOfWorkReward(int64_t nHeight, int64_t nFees)
 {
-    int64_t nSubsidy = 10000 * COIN;
+    int64_t nSubsidy = 60000000 * COIN;
     if (nHeight > 1) {
 	nSubsidy = 0;
     }
