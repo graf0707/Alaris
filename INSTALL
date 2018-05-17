@@ -1,9 +1,9 @@
-Building BlackCoin
+Building Alaris
 
-See doc/readme-qt.rst for instructions on building BlackCoin QT,
+See doc/readme-qt.rst for instructions on building Alaris QT,
 the intended-for-end-users, nice-graphical-interface, reference
-implementation of BlackCoin.
+implementation of Alaris.
 
-See doc/build-*.txt for instructions on building blackcoind,
+See doc/build-*.txt for instructions on building alarisd,
 the intended-for-services, no-graphical-interface, reference
-implementation of BlackCoin.
+implementation of Alaris.

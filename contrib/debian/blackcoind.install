@@ -1,2 +1,2 @@
-debian/bin/blackcoind usr/bin
-src/blackcoind usr/lib/blackcoin
+debian/bin/alarisd usr/bin
+src/alarisd usr/lib/alaris

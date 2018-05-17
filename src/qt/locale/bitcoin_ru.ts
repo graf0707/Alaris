@@ -3,22 +3,22 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About BlackCoin</source>
-        <translation>О BlackCoin</translation>
+        <source>About Alaris</source>
+        <translation>О Alaris</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;BlackCoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;BlackCoin&lt;/b&gt; версия</translation>
+        <source>&lt;b&gt;Alaris&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;Alaris&lt;/b&gt; версия</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2014 The BlackCoin developers</source>
+Copyright © 2014 The Alaris developers</source>
         <translation>Все права защищены © 2009-2014 Разработчики Bitcoin
 Все права защищены © 2012-2014 Разработчики NovaCoin
-Все права защищены © 2014 Разработчики BlackCoin</translation>
+Все права защищены © 2014 Разработчики Alaris</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -60,7 +60,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-43"/>
-        <source>These are your BlackCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <source>These are your Alaris addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
         <translation>Это Ваши адреса для получения платежей. Вы можете дать разные адреса отправителям, чтобы отслеживать, кто именно вам платит.</translation>
     </message>
     <message>
@@ -75,8 +75,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign a message to prove you own a BlackCoin address</source>
-        <translation>Подписать сообщение, чтобы доказать владение адресом BlackCoin</translation>
+        <source>Sign a message to prove you own a Alaris address</source>
+        <translation>Подписать сообщение, чтобы доказать владение адресом Alaris</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -90,8 +90,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-10"/>
-        <source>Verify a message to ensure it was signed with a specified BlackCoin address</source>
-        <translation>Проверить сообщение, чтобы убедиться, что оно было подписано указанным адресом BlackCoin</translation>
+        <source>Verify a message to ensure it was signed with a specified Alaris address</source>
+        <translation>Проверить сообщение, чтобы убедиться, что оно было подписано указанным адресом Alaris</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -258,7 +258,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+82"/>
-        <source>BlackCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <source>Alaris will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
         <translation>Сейчас программа закроется для завершения процесса шифрования. Помните, что шифрование вашего бумажника не может полностью защитить ваши монеты от кражи с помощью инфицирования вашего компьютера вредоносным ПО.</translation>
     </message>
     <message>
@@ -352,8 +352,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about BlackCoin</source>
-        <translation>Показать информацию о BlackCoin&apos;е</translation>
+        <source>Show information about Alaris</source>
+        <translation>Показать информацию о Alaris&apos;е</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -392,13 +392,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-55"/>
-        <source>Send coins to a BlackCoin address</source>
-        <translation>Отправить монеты на указанный адрес BlackCoin</translation>
+        <source>Send coins to a Alaris address</source>
+        <translation>Отправить монеты на указанный адрес Alaris</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>Modify configuration options for BlackCoin</source>
-        <translation>Изменить параметры конфигурации BlackCoin</translation>
+        <source>Modify configuration options for Alaris</source>
+        <translation>Изменить параметры конфигурации Alaris</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -438,8 +438,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-214"/>
         <location line="+555"/>
-        <source>BlackCoin</source>
-        <translation>BlackCoin</translation>
+        <source>Alaris</source>
+        <translation>Alaris</translation>
     </message>
     <message>
         <location line="-555"/>
@@ -448,8 +448,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+193"/>
-        <source>&amp;About BlackCoin</source>
-        <translation>&amp;О BlackCoin</translation>
+        <source>&amp;About Alaris</source>
+        <translation>&amp;О Alaris</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -500,12 +500,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+0"/>
         <location line="+58"/>
-        <source>BlackCoin client</source>
-        <translation>BlackCoin клиент</translation>
+        <source>Alaris client</source>
+        <translation>Alaris клиент</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to BlackCoin network</source>
+        <source>%n active connection(s) to Alaris network</source>
         <translation><numerusform>%n активное соединение с сетью</numerusform><numerusform>%n активных соединений с сетью</numerusform><numerusform>%n активных соединений с сетью</numerusform><numerusform>%n активных соединений с сетью</numerusform></translation>
     </message>
     <message>
@@ -600,8 +600,8 @@ Address: %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid BlackCoin address or malformed URI parameters.</source>
-        <translation>Не удалось обработать URI! Это может быть связано с неверным адресом BlackCoin или неправильными параметрами URI.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid Alaris address or malformed URI parameters.</source>
+        <translation>Не удалось обработать URI! Это может быть связано с неверным адресом Alaris или неправильными параметрами URI.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -723,8 +723,8 @@ Address: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+104"/>
-        <source>A fatal error occurred. BlackCoin can no longer continue safely and will quit.</source>
-        <translation>Произошла неисправимая ошибка. BlackCoin не может безопасно продолжать работу и будет закрыт.</translation>
+        <source>A fatal error occurred. Alaris can no longer continue safely and will quit.</source>
+        <translation>Произошла неисправимая ошибка. Alaris не может безопасно продолжать работу и будет закрыт.</translation>
     </message>
 </context>
 <context>
@@ -989,8 +989,8 @@ Address: %4
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid BlackCoin address.</source>
-        <translation>Введённый адрес &quot;%1&quot; не является правильным BlackCoin-адресом.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Alaris address.</source>
+        <translation>Введённый адрес &quot;%1&quot; не является правильным Alaris-адресом.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1008,8 +1008,8 @@ Address: %4
     <message>
         <location filename="../guiutil.cpp" line="+426"/>
         <location line="+12"/>
-        <source>BlackCoin-Qt</source>
-        <translation>BlackCoin-Qt</translation>
+        <source>Alaris-Qt</source>
+        <translation>Alaris-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1081,13 +1081,13 @@ Address: %4
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start BlackCoin after logging in to the system.</source>
-        <translation>Автоматически запускать BlackCoin после входа в систему</translation>
+        <source>Automatically start Alaris after logging in to the system.</source>
+        <translation>Автоматически запускать Alaris после входа в систему</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start BlackCoin on system login</source>
-        <translation>&amp;Запускать BlackCoin при входе в систему</translation>
+        <source>&amp;Start Alaris on system login</source>
+        <translation>&amp;Запускать Alaris при входе в систему</translation>
     </message>
     <message>
         <location line="+21"/>
@@ -1096,8 +1096,8 @@ Address: %4
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the BlackCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Автоматически открыть порт для BlackCoin-клиента на роутере. Работает только если Ваш роутер поддерживает UPnP, и данная функция включена.</translation>
+        <source>Automatically open the Alaris client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Автоматически открыть порт для Alaris-клиента на роутере. Работает только если Ваш роутер поддерживает UPnP, и данная функция включена.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1126,7 +1126,7 @@ Address: %4
     </message>
     <message>
         <location line="-57"/>
-        <source>Connect to the BlackCoin network through a SOCKS5 proxy (e.g. when connecting through Tor).</source>
+        <source>Connect to the Alaris network through a SOCKS5 proxy (e.g. when connecting through Tor).</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1171,8 +1171,8 @@ Address: %4
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting BlackCoin.</source>
-        <translation>Здесь можно выбрать язык интерфейса. Настройки вступят в силу после перезапуска BlackCoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Alaris.</source>
+        <translation>Здесь можно выбрать язык интерфейса. Настройки вступят в силу после перезапуска Alaris.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1228,8 +1228,8 @@ Address: %4
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting BlackCoin.</source>
-        <translation>Эта настройка вступит в силу после перезапуска BlackCoin</translation>
+        <source>This setting will take effect after restarting Alaris.</source>
+        <translation>Эта настройка вступит в силу после перезапуска Alaris</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1247,8 +1247,8 @@ Address: %4
     <message>
         <location line="+46"/>
         <location line="+247"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the BlackCoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Отображаемая информация может быть устаревшей. Ваш бумажник автоматически синхронизируется с сетью BlackCoin после подключения, но этот процесс пока не завершён.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Alaris network after a connection is established, but this process has not completed yet.</source>
+        <translation>Отображаемая информация может быть устаревшей. Ваш бумажник автоматически синхронизируется с сетью Alaris после подключения, но этот процесс пока не завершён.</translation>
     </message>
     <message>
         <location line="-173"/>
@@ -1321,7 +1321,7 @@ Address: %4
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start blackcoin: click-to-pay handler</source>
+        <source>Cannot start alaris: click-to-pay handler</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -1491,8 +1491,8 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the BlackCoin-Qt help message to get a list with possible BlackCoin command-line options.</source>
-        <translation>Показать помощь по BlackCoin-Qt, чтобы получить список доступных параметров командной строки.</translation>
+        <source>Show the Alaris-Qt help message to get a list with possible Alaris command-line options.</source>
+        <translation>Показать помощь по Alaris-Qt, чтобы получить список доступных параметров командной строки.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1511,13 +1511,13 @@ Address: %4
     </message>
     <message>
         <location line="-104"/>
-        <source>BlackCoin - Debug window</source>
-        <translation>BlackCoin - Окно отладки</translation>
+        <source>Alaris - Debug window</source>
+        <translation>Alaris - Окно отладки</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>BlackCoin Core</source>
-        <translation>Ядро BlackCoin</translation>
+        <source>Alaris Core</source>
+        <translation>Ядро Alaris</translation>
     </message>
     <message>
         <location line="+256"/>
@@ -1526,8 +1526,8 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the BlackCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Открыть отладочный лог-файл BlackCoin из текущего каталога данных. Это может занять несколько секунд для больших лог-файлов.</translation>
+        <source>Open the Alaris debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Открыть отладочный лог-файл Alaris из текущего каталога данных. Это может занять несколько секунд для больших лог-файлов.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1536,8 +1536,8 @@ Address: %4
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-28"/>
-        <source>Welcome to the BlackCoin RPC console.</source>
-        <translation>Добро пожаловать в RPC-консоль BlackCoin.</translation>
+        <source>Welcome to the Alaris RPC console.</source>
+        <translation>Добро пожаловать в RPC-консоль Alaris.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1707,8 +1707,8 @@ Address: %4
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-171"/>
-        <source>Enter a BlackCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Введите BlackCoin-адрес (например B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a Alaris address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Введите Alaris-адрес (например B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1802,7 +1802,7 @@ Address: %4
     </message>
     <message>
         <location line="+241"/>
-        <source>WARNING: Invalid BlackCoin address</source>
+        <source>WARNING: Invalid Alaris address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1876,8 +1876,8 @@ Address: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a BlackCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Введите BlackCoin-адрес (например B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a Alaris address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Введите Alaris-адрес (например B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
 </context>
 <context>
@@ -1937,8 +1937,8 @@ Address: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this BlackCoin address</source>
-        <translation>Подписать сообщение, чтобы доказать владение адресом BlackCoin</translation>
+        <source>Sign the message to prove you own this Alaris address</source>
+        <translation>Подписать сообщение, чтобы доказать владение адресом Alaris</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -1969,8 +1969,8 @@ Address: %4
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified BlackCoin address</source>
-        <translation>Проверить сообщение, чтобы убедиться, что оно было подписано указанным адресом BlackCoin</translation>
+        <source>Verify the message to ensure it was signed with the specified Alaris address</source>
+        <translation>Проверить сообщение, чтобы убедиться, что оно было подписано указанным адресом Alaris</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -1980,8 +1980,8 @@ Address: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a BlackCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Введите адрес BlackCoin (напр. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a Alaris address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Введите адрес Alaris (напр. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -1990,8 +1990,8 @@ Address: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter BlackCoin signature</source>
-        <translation>Введите подпись BlackCoin</translation>
+        <source>Enter Alaris signature</source>
+        <translation>Введите подпись Alaris</translation>
     </message>
     <message>
         <location line="+85"/>
@@ -2569,7 +2569,7 @@ Address: %4
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+8"/>
-        <source>BlackCoin version</source>
+        <source>Alaris version</source>
         <translation>Версия</translation>
     </message>
     <message>
@@ -2579,8 +2579,8 @@ Address: %4
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or blackcoind</source>
-        <translation>Отправить команду на -server или blackcoind</translation>
+        <source>Send command to -server or alarisd</source>
+        <translation>Отправить команду на -server или alarisd</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2600,13 +2600,13 @@ Address: %4
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: blackcoin.conf)</source>
-        <translation>Указать конфигурационный файл (по умолчанию: blackcoin.conf)</translation>
+        <source>Specify configuration file (default: alaris.conf)</source>
+        <translation>Указать конфигурационный файл (по умолчанию: alaris.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: blackcoind.pid)</source>
-        <translation>Указать pid-файл (по умолчанию: blackcoind.pid)</translation>
+        <source>Specify pid file (default: alarisd.pid)</source>
+        <translation>Указать pid-файл (по умолчанию: alarisd.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2623,13 +2623,13 @@ Address: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=blackcoinrpc
+rpcuser=alarisrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;BlackCoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Alaris Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -2730,8 +2730,8 @@ for example: alertnotify=echo %%s | mail -s &quot;BlackCoin Alert&quot; admin@fo
     </message>
     <message>
         <location line="+46"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong BlackCoin will not work properly.</source>
-        <translation>Внимание: убедитесь, что дата и время на Вашем компьютере выставлены верно. Если Ваши часы идут неправильно, BlackCoin будет работать некорректно.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Alaris will not work properly.</source>
+        <translation>Внимание: убедитесь, что дата и время на Вашем компьютере выставлены верно. Если Ваши часы идут неправильно, Alaris будет работать некорректно.</translation>
     </message>
     <message>
         <location line="-19"/>
@@ -3026,7 +3026,7 @@ for example: alertnotify=echo %%s | mail -s &quot;BlackCoin Alert&quot; admin@fo
     </message>
     <message>
         <location line="+8"/>
-        <source>Initialization sanity check failed. BlackCoin is shutting down.</source>
+        <source>Initialization sanity check failed. Alaris is shutting down.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3081,13 +3081,13 @@ for example: alertnotify=echo %%s | mail -s &quot;BlackCoin Alert&quot; admin@fo
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of BlackCoin</source>
-        <translation>Ошибка загрузки wallet.dat: бумажник требует более новую версию BlackCoin</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Alaris</source>
+        <translation>Ошибка загрузки wallet.dat: бумажник требует более новую версию Alaris</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart BlackCoin to complete</source>
-        <translation>Необходимо перезаписать бумажник, перезапустите BlackCoin для завершения операции</translation>
+        <source>Wallet needed to be rewritten: restart Alaris to complete</source>
+        <translation>Необходимо перезаписать бумажник, перезапустите Alaris для завершения операции</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3146,8 +3146,8 @@ for example: alertnotify=echo %%s | mail -s &quot;BlackCoin Alert&quot; admin@fo
     </message>
     <message>
         <location line="+131"/>
-        <source>Unable to bind to %s on this computer. BlackCoin is probably already running.</source>
-        <translation>Невозможно привязаться к %s на этом компьютере.  Возможно, BlackCoin уже работает.</translation>
+        <source>Unable to bind to %s on this computer. Alaris is probably already running.</source>
+        <translation>Невозможно привязаться к %s на этом компьютере.  Возможно, Alaris уже работает.</translation>
     </message>
     <message>
         <location line="-108"/>
@@ -3176,7 +3176,7 @@ for example: alertnotify=echo %%s | mail -s &quot;BlackCoin Alert&quot; admin@fo
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. BlackCoin is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. Alaris is probably already running.</source>
         <translation>Невозможно установить блокировку на рабочую директорию %s.  Возможно, бумажник уже запущен.</translation>
     </message>
     <message>

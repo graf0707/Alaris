@@ -1,6 +1,6 @@
 [Protocol]
-exec=blackcoin-qt '%u'
-protocol=blackcoin
+exec=alaris-qt '%u'
+protocol=alaris
 input=none
 output=none
 helper=true
