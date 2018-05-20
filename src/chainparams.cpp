@@ -83,6 +83,7 @@ public:
 
 	vSeeds.push_back(CDNSSeedData("54.38.27.208", "54.38.27.208"));
 	vSeeds.push_back(CDNSSeedData("159.65.86.185", "159.65.86.185"));
+	vSeeds.push_back(CDNSSeedData("167.99.67.20", "167.99.67.20"));
 
         hashGenesisBlock = genesis.GetHash();
         assert(hashGenesisBlock == uint256("0x000009434be02fd10f1e958d086a615a28132e608ac2d423e3ebe6029a33d1e1"));
