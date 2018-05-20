@@ -964,7 +964,9 @@ void static PruneOrphanBlocks()
 int64_t GetProofOfWorkReward(int64_t nHeight, int64_t nFees)
 {
     int64_t nSubsidy = 60000000 * COIN;
-    if (nHeight > 1) {
+    if (nHeight > 0 && <= 2500000) {
+	nSubsidy = 2 * COIN;
+    } else {
 	nSubsidy = 0;
     }
     LogPrint("creation", "GetProofOfWorkReward() : create=%s nSubsidy=%d\n", FormatMoney(nSubsidy), nSubsidy);

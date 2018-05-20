@@ -81,6 +81,9 @@ public:
         genesis.nBits    = bnProofOfWorkLimit.GetCompact();
         genesis.nNonce   = 120558;
 
+	vSeeds.push_back(CDNSSeedData("54.38.27.208", "54.38.27.208"));
+	vSeeds.push_back(CDNSSeedData("159.65.86.185", "159.65.86.185"));
+
         hashGenesisBlock = genesis.GetHash();
         assert(hashGenesisBlock == uint256("0x000009434be02fd10f1e958d086a615a28132e608ac2d423e3ebe6029a33d1e1"));
         assert(genesis.hashMerkleRoot == uint256("0xdd16628ffc90fbfc37f641509ab8e18909f1ed3188ebbd8d3c661655f8ad6a14"));
