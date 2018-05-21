@@ -367,7 +367,8 @@ public:
     bool IsValid() const
     {
         bool fExpectedFormat = vchData.size() == 32 || (vchData.size() == 33 && vchData[32] == 1);
-        bool fCorrectVersion = vchVersion == Params().Base58Prefix(CChainParams::SECRET_KEY);
+        bool fCorrectVersion = vchVersion == Params().Base58Prefix(CChainParams::SECRET_KEY) ||
+                               vchVersion == Params().Base58Prefix(CChainParams::SECRET_KEY_EBST);
         return fExpectedFormat && fCorrectVersion;
     }
 
