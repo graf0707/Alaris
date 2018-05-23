@@ -30,3 +30,8 @@ in this manner will have their corresponding issue labeled 'stagnant'.
 Issues with no commits will be given a similar warning, and closed after
 15 days from their last activity. Issues closed in this manner will be 
 labeled 'stale'.
+
+
+How-To Redeem Airdrop Tokens
+==================================
+Review the Wallet-Reader [README](https://github.com/Alaris-Org/Alaris/blob/master/contrib/Wallet-Reader/README.md) file in [contrib/Wallet-Reader/](https://github.com/Alaris-Org/Alaris/blob/master/contrib/Wallet-Reader/)
