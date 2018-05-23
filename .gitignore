@@ -1,3 +1,5 @@
+wallet.dat
+*.pyc
 /.vagrant
 Vagrantfile
 *.log
