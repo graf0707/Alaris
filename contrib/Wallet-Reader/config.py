@@ -1,6 +1,6 @@
-DATA_DIR="/home/ahmedbodi/.eboost"
-RPC_USER = "username"
-RPC_PASSWORD = "password"
-RPC_HOST = '127.0.0.1'
-RPC_PORT = 13105
+EBOOST_DATA_DIR = '/home/ubuntu/.eboost'
+ALARIS_RPC_USER = 'alarisd'
+ALARIS_RPC_PASSWORD = 'password'
+ALARIS_RPC_HOST = '127.0.0.1'
+ALARIS_RPC_PORT = 13105
 ADDRESS_TYPE = 1

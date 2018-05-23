@@ -1697,31 +1697,20 @@ def importprivkey(db, sec):
 
     return False
 
+
 from optparse import OptionParser
 
-def main():
 
-    global addrtype
+def main():
+    global addrtype, password
 
     parser = OptionParser(usage="%prog [options]", version="%prog 1.2")
-
-    parser.add_option("--dumpwallet", dest="dump", action="store_true",
-        help="dump wallet in json format")
-
-    parser.add_option("--exporttodaemon", dest="export", action="store_true",
-	help="export private keys to a compatible coin")
-
-    parser.add_option("--importprivkey", dest="key",
-        help="import private key from vanitygen")
-
-    parser.add_option("--datadir", dest="datadir", 
-        help="wallet directory (defaults to bitcoin default)")
-
-    parser.add_option("--testnet", dest="testnet", action="store_true",
-        help="use testnet subdirectory and address type")
-
-    parser.add_option("--password", dest="password",
-        help="password for the encrypted wallet")
+    parser.add_option("--dumpwallet", dest="dump", action="store_true", help="dump wallet in json format")
+    parser.add_option("--exporttodaemon", dest="export", action="store_true", help="export private keys to a compatible coin")
+    parser.add_option("--importprivkey", dest="key", help="import private key from vanitygen")
+    parser.add_option("--datadir", dest="datadir", help="wallet directory (defaults to bitcoin default)")
+    parser.add_option("--testnet", dest="testnet", action="store_true", help="use testnet subdirectory and address type")
+    parser.add_option("--password", dest="password", help="password for the encrypted wallet")
 
     (options, args) = parser.parse_args()
 
@@ -1731,7 +1720,7 @@ def main():
         sys.exit(1)
 
     if options.datadir is None:
-	db_dir = config.DATA_DIR
+        db_dir = config.EBOOST_DATA_DIR
     else:
         db_dir = options.datadir
 
@@ -1739,12 +1728,10 @@ def main():
         db_dir += "/testnet"
         addrtype = 111
 
-    if os.path.exists(db_dir+"/wallets"):
+    if os.path.exists(db_dir + "/wallets"):
         db_dir += "/wallets"
 
     db_env = create_env(db_dir)
-
-    global password
 
     if options.password:
         password = options.password
@@ -1772,15 +1759,15 @@ def main():
         print json.dumps(json_db, sort_keys=True, indent=4)
 
     elif options.export:
-	for key in json_db['keys']:
-	    print("Importing Private Key For Pubkey {0}".format(key['pubkey']))
-	    rpc_connection = AuthServiceProxy("http://%s:%s@%s:%s"%(config.RPC_USER, config.RPC_PASSWORD, config.RPC_HOST, config.RPC_PORT))
-	    print rpc_connection.importprivkey(key['privkey'])
+        for key in json_db['keys']:
+            print("Importing Private Key For Pubkey {0}".format(key['pubkey']))
+            rpc_connection = AuthServiceProxy("http://%s:%s@%s:%s" % (config.ALARIS_RPC_USER, config.ALARIS_RPC_PASSWORD, config.ALARIS_RPC_HOST, config.ALARIS_RPC_PORT))
+            print rpc_connection.importprivkey(key['privkey'])
 
     elif options.key:
         if options.key in private_keys:
             print "Already exists"
-        else:    
+        else:
             db = open_wallet(db_env, writable=True)
 
             if importprivkey(db, options.key):
@@ -1789,6 +1776,7 @@ def main():
                 print "Bad private key"
 
             db.close()
+
 
 if __name__ == '__main__':
     main()
